@@ -15,15 +15,6 @@ public class StoreResponseDTO {
     @Getter
     @NoArgsConstructor
     @AllArgsConstructor
-    public static class CreateReviewResultDTO{
-        Long reviewId;
-        LocalDateTime createdAt;
-    }
-
-    @Builder
-    @Getter
-    @NoArgsConstructor
-    @AllArgsConstructor
     public static class ReviewPreViewListDTO{
         List<ReviewPreViewDTO> reviewList;
         Integer listSize;
